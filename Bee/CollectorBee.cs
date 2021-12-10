@@ -6,8 +6,6 @@ namespace Bee
     public class CollectorBee
     {
         private Program pg = new Program();
-
-        
         public void CollectNectar()
         {
             while (true)

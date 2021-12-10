@@ -8,6 +8,7 @@ namespace Bee
     {
         private Program pg = new Program();
 
+        //Consuming the nectar from the collectorBee and removing it from the nectar Queue
         public void ConsumeNectar()
         {
             while (true)
@@ -36,7 +37,7 @@ namespace Bee
             }
         }
         
-        //Tqaken the produced nectar and creating one jar of honey with everu 2000 piece of nectar
+        //Tqaken the produced nectar and creating one jar of honey with every 2000 piece of nectar
         public int ProduceHoney()
         {
             int honey = 0;
